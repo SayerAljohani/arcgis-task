@@ -6,7 +6,7 @@ require(["esri/config",
     "esri/Graphic",
     "esri/layers/GraphicsLayer",
 ], function (esriConfig, Map, MapView, Graphic, GraphicsLayer) {
-    esriConfig.apiKey = 'test'
+    esriConfig.apiKey = 'AAPKdd84198a6c36469abba00f307ae9cb7dwqt2xs7E9ezJmFHg0m95po5zb-dn4hLfDxBNYPQ2EUAVINzglRhaKg2yh61sUGkM'
 
     const map = new Map({
         basemap: "osm-streets", // Basemap layer service
